@@ -16,8 +16,8 @@ if (process.argv.length > 1 && process.argv[1] != '.') {
 
 function createWindow () {
   let win = new BrowserWindow({
-    width: 600,
-    height: 400,
+    width: 800,
+    height: 600,
     webPreferences: {
       nodeIntegration: true
     }
