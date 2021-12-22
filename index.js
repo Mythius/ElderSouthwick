@@ -8,7 +8,7 @@ if (process.argv.length > 1 && process.argv[1] != '.') {
     const shortcutsCreated = createDesktopShortcut({
         windows: { 
             filePath: `%appdata%\\..\\local\\${name}\\${name}.exe`,
-            // icon: __dirname + '\\favicon.ico'
+            icon: __dirname + '\\favicon.ico'
         }
     });
 }

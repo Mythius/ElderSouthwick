@@ -2,15 +2,19 @@
   "name": "eldersouthwick",
   "version": "1.0.0",
   "description": "",
-  "main": "electron.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
     "url": "github.com/mythius/ElderSouthwick"
   },
   "author": "Elder Southwick",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "create-desktop-shortcuts": "^1.5.0",
+    "electron": "^16.0.5"
+  }
 }
